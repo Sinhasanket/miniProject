@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="8" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-17T11:37:35 IST" name="Default suite" finished-at="2021-09-17T11:38:30 IST" duration-ms="54544">
+    <groups>
+    </groups>
+    <test started-at="2021-09-17T11:37:35 IST" name="Default test" finished-at="2021-09-17T11:38:30 IST" duration-ms="54544">
+      <class name="com.persistent.testcases.HomePageTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.persistent.testcases.HomePageTest@4944252c]" started-at="2021-09-17T11:37:35 IST" name="beforeMethod" finished-at="2021-09-17T11:37:41 IST" duration-ms="5809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyLogoutLink()[pri:1, instance:com.persistent.testcases.HomePageTest@4944252c]" started-at="2021-09-17T11:37:41 IST" name="verifyLogoutLink" finished-at="2021-09-17T11:37:41 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutLink -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.persistent.testcases.HomePageTest@4944252c]" started-at="2021-09-17T11:37:41 IST" name="afterMethod" finished-at="2021-09-17T11:37:42 IST" duration-ms="625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.persistent.testcases.HomePageTest@4944252c]" started-at="2021-09-17T11:37:42 IST" name="beforeMethod" finished-at="2021-09-17T11:37:46 IST" duration-ms="3604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyMessageLink()[pri:2, instance:com.persistent.testcases.HomePageTest@4944252c]" started-at="2021-09-17T11:37:46 IST" name="verifyMessageLink" finished-at="2021-09-17T11:37:46 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMessageLink -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.persistent.testcases.HomePageTest@4944252c]" started-at="2021-09-17T11:37:46 IST" name="afterMethod" finished-at="2021-09-17T11:37:46 IST" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.persistent.testcases.HomePageTest@4944252c]" started-at="2021-09-17T11:37:46 IST" name="beforeMethod" finished-at="2021-09-17T11:37:50 IST" duration-ms="3796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyFindFriendLink()[pri:3, instance:com.persistent.testcases.HomePageTest@4944252c]" started-at="2021-09-17T11:37:50 IST" name="verifyFindFriendLink" finished-at="2021-09-17T11:37:51 IST" duration-ms="702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFindFriendLink -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.persistent.testcases.HomePageTest@4944252c]" started-at="2021-09-17T11:37:51 IST" name="afterMethod" finished-at="2021-09-17T11:37:52 IST" duration-ms="830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.persistent.testcases.HomePageTest@4944252c]" started-at="2021-09-17T11:37:52 IST" name="beforeMethod" finished-at="2021-09-17T11:37:56 IST" duration-ms="4343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyFriendLink()[pri:4, instance:com.persistent.testcases.HomePageTest@4944252c]" started-at="2021-09-17T11:37:56 IST" name="verifyFriendLink" finished-at="2021-09-17T11:37:56 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFriendLink -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.persistent.testcases.HomePageTest@4944252c]" started-at="2021-09-17T11:37:56 IST" name="afterMethod" finished-at="2021-09-17T11:37:57 IST" duration-ms="759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.persistent.testcases.HomePageTest@4944252c]" started-at="2021-09-17T11:37:57 IST" name="beforeMethod" finished-at="2021-09-17T11:38:01 IST" duration-ms="4439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyLikeDislikeBtn()[pri:5, instance:com.persistent.testcases.HomePageTest@4944252c]" started-at="2021-09-17T11:38:01 IST" name="verifyLikeDislikeBtn" finished-at="2021-09-17T11:38:02 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLikeDislikeBtn -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.persistent.testcases.HomePageTest@4944252c]" started-at="2021-09-17T11:38:02 IST" name="afterMethod" finished-at="2021-09-17T11:38:03 IST" duration-ms="971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.persistent.testcases.HomePageTest@4944252c]" started-at="2021-09-17T11:38:03 IST" name="beforeMethod" finished-at="2021-09-17T11:38:07 IST" duration-ms="4159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyNotificationLink()[pri:6, instance:com.persistent.testcases.HomePageTest@4944252c]" started-at="2021-09-17T11:38:07 IST" name="verifyNotificationLink" finished-at="2021-09-17T11:38:07 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNotificationLink -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.persistent.testcases.HomePageTest@4944252c]" started-at="2021-09-17T11:38:07 IST" name="afterMethod" finished-at="2021-09-17T11:38:08 IST" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.persistent.testcases.HomePageTest@4944252c]" started-at="2021-09-17T11:38:08 IST" name="beforeMethod" finished-at="2021-09-17T11:38:12 IST" duration-ms="4223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyFindFriendWhoIsFollowingLink()[pri:7, instance:com.persistent.testcases.HomePageTest@4944252c]" started-at="2021-09-17T11:38:12 IST" name="verifyFindFriendWhoIsFollowingLink" finished-at="2021-09-17T11:38:13 IST" duration-ms="635" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Request Sent] but found [Add Friend]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Request Sent] but found [Add Friend]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.persistent.testcases.HomePageTest.verifyFindFriendWhoIsFollowingLink(HomePageTest.java:133)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFindFriendWhoIsFollowingLink -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.persistent.testcases.HomePageTest@4944252c]" started-at="2021-09-17T11:38:13 IST" name="afterMethod" finished-at="2021-09-17T11:38:13 IST" duration-ms="713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.persistent.testcases.HomePageTest@4944252c]" started-at="2021-09-17T11:38:13 IST" name="beforeMethod" finished-at="2021-09-17T11:38:18 IST" duration-ms="4289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyHamBergerMenu()[pri:8, instance:com.persistent.testcases.HomePageTest@4944252c]" started-at="2021-09-17T11:38:18 IST" name="verifyHamBergerMenu" finished-at="2021-09-17T11:38:18 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHamBergerMenu -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.persistent.testcases.HomePageTest@4944252c]" started-at="2021-09-17T11:38:18 IST" name="afterMethod" finished-at="2021-09-17T11:38:18 IST" duration-ms="763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.persistent.testcases.HomePageTest@4944252c]" started-at="2021-09-17T11:38:18 IST" name="beforeMethod" finished-at="2021-09-17T11:38:23 IST" duration-ms="4379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyUserNameClick()[pri:9, instance:com.persistent.testcases.HomePageTest@4944252c]" started-at="2021-09-17T11:38:23 IST" name="verifyUserNameClick" finished-at="2021-09-17T11:38:23 IST" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserNameClick -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.persistent.testcases.HomePageTest@4944252c]" started-at="2021-09-17T11:38:23 IST" name="afterMethod" finished-at="2021-09-17T11:38:24 IST" duration-ms="825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.persistent.testcases.HomePageTest@4944252c]" started-at="2021-09-17T11:38:24 IST" name="beforeMethod" finished-at="2021-09-17T11:38:29 IST" duration-ms="4688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifySearchFriend()[pri:10, instance:com.persistent.testcases.HomePageTest@4944252c]" started-at="2021-09-17T11:38:29 IST" name="verifySearchFriend" finished-at="2021-09-17T11:38:29 IST" duration-ms="258" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Gatherly Social Network Toolkit] but found [403 Forbidden]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Gatherly Social Network Toolkit] but found [403 Forbidden]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.persistent.testcases.HomePageTest.verifySearchFriend(HomePageTest.java:163)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchFriend -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.persistent.testcases.HomePageTest@4944252c]" started-at="2021-09-17T11:38:29 IST" name="afterMethod" finished-at="2021-09-17T11:38:30 IST" duration-ms="874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.persistent.testcases.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
