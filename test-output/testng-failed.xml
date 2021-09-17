@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.persistent.testcases.HomePageTest">
+      <class name="com.persistent.testcases.home.HomePageTest">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="verifyFindFriendWhoIsFollowingLink"/>
-          <include name="verifySearchFriend"/>
+          <include name="verifyLogoutLinkTest"/>
           <include name="afterMethod"/>
+          <include name="verifyMessageLinkTest"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- com.persistent.testcases.HomePageTest -->
+      </class> <!-- com.persistent.testcases.home.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,5 +1,7 @@
 package com.persistent.utilities;
 
+import java.io.IOException;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
@@ -150,6 +152,11 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
 	@Override
 	public void onException(Throwable throwable, WebDriver driver) {
 		// TODO Auto-generated method stub
+		try {
+			TestUtils.takeScreenshotAtEndOfTest();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		
 	}
 

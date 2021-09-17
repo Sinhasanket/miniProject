@@ -1,10 +1,10 @@
-package com.persistent.testcases;
+package com.persistent.testcases.home;
 
 import org.testng.annotations.Test;
 
 import com.persistent.base.TestBase;
-import com.persistent.pages.HomePage;
-import com.persistent.pages.LoginPage;
+import com.persistent.pages.home.HomePage;
+import com.persistent.pages.login.LoginPage;
 import com.persistent.utilities.TestUtils;
 
 import org.testng.annotations.BeforeMethod;

@@ -1,11 +1,11 @@
-package com.persistent.pages;
+package com.persistent.pages.home;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class HomePage {
-// Make custome xpaths
+    // Make Custom xpaths
 	private static WebElement element = null;
 	private static By message = By.xpath(" //*[@id=\"page-contents\"]/div[1]/aside/div/ul/li[2]/a");
 	private static By logout = By.xpath("//*[@id=\"page-contents\"]/div[1]/aside/div/ul/li[6]/a");
