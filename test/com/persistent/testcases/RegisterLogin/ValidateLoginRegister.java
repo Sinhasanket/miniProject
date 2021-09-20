@@ -1,4 +1,4 @@
-package com.persistent.testcases.registerLogin;
+package com.persistent.testcases.RegisterLogin;
 
 import java.io.IOException;
 
