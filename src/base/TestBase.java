@@ -38,7 +38,7 @@ public class TestBase {
 		
 		if(browserName.equals("chrome")){
 			
-			System.setProperty("webdriver.chrome.driver", "D:\\Projects\\Pissy Hurricans Mini Project\\miniProject\\src\\resources\\chromedriver.exe");	
+			System.setProperty("webdriver.chrome.driver", "D:\\Eclipse\\MiniProject8\\miniProject\\src\\resources\\chromedriver.exe");	
 			driver = new ChromeDriver(); 
 		}
 		else if(browserName.equals("FF")){

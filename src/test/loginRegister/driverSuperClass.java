@@ -15,7 +15,7 @@ public class driverSuperClass {
 
     public void preCondition()
     {
-		System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "src/resources/chromedriver.exe");
     	driver = new ChromeDriver();
 
                 driver.get("http://127.0.0.1:8000/");

@@ -17,7 +17,7 @@ public class ValidateLoginRegister{
 	
 	@BeforeMethod
 	public void preCond() {
-		System.setProperty("webdriver.chrome.driver", "src/test/java/test/com/persistent/resources/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "src/resources/chromedriver.exe");
     	driver = new ChromeDriver();
 
                 driver.get("http://127.0.0.1:8000/accounts/login");
@@ -37,10 +37,23 @@ public class ValidateLoginRegister{
 		driver.findElement(By.name("gender")).sendKeys(gen);
 		
 		driver.findElement(By.xpath("/html/body/div/div/div/div[2]/div/div/form/div[7]/button")).click();
+		System.out.println("Verifying Registration for details : "+email+", "+Uname+", "+pwd1+", "+pwd2+", "+gen);
 		String url=driver.getCurrentUrl();
-		
+		try {
 		Assert.assertEquals(url, "http://127.0.0.1:8000/accounts/login");
-		}	
+		}catch(AssertionError e) {
+			flag=true;
+		}
+		finally {
+			if(!flag) {
+				System.out.println("Registration Succesfully");
+			}else
+			{
+				System.out.println("Registration failed");
+			}
+			System.out.println("__________________________________________________________________");
+		}
+	}	
 	
 	//Testing login
 	@Test (priority=1,dataProvider= "testdataForLogin", dataProviderClass=loginExcel.class)
@@ -50,10 +63,22 @@ public class ValidateLoginRegister{
 		
 		driver.findElement(By.xpath("/html/body/div/div/div/div[2]/div/div/form/div[4]/button/span")).click();
 		Thread.sleep(3000);
-		
+		System.out.println("Verifying Login successful for details: "+UName+", "+pwd);
 		String url=driver.getCurrentUrl();
-		
-		Assert.assertEquals(url, "http://127.0.0.1:8000/");
+		try {
+		Assert.assertEquals(url, "http://127.0.0.1:8000/");}
+		catch(AssertionError e) {
+			flag=true;
+		}
+		finally {
+			if(!flag) {
+				System.out.println("Login Succesfully");
+			}else
+			{
+				System.out.println("Login failed");
+			}
+			System.out.println("__________________________________________________________________");
+		}
 	}
 	
 

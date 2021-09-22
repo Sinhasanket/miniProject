@@ -12,7 +12,7 @@ import org.apache.commons.io.FileUtils;
 public class TestUtils extends TestBase{
     public static long IMPLICIT_WAIT = 10;
     public static long PAGE_LOAD_TIMEOUT=10;
-    public static String FILE_READER_PATH = "D:\\Projects\\Pissy Hurricans Mini Project\\miniProject\\src\\files\\application.properties";
+    public static String FILE_READER_PATH = "D:\\Eclipse\\MiniProject8\\miniProject\\src\\files\\application.properties";
 
     public static void takeScreenshotAtEndOfTest() throws IOException {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
