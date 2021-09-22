@@ -11,7 +11,7 @@ import org.testng.annotations.DataProvider;
 public class registerExcel {
 	@DataProvider (name= "testdataForRegister")	
 	public Object [] [] readExcel() throws IOException{
-		FileInputStream file= new FileInputStream("D:\\Eclipse\\miniProjectDDT\\src\\main\\resources\\ExternalDataSourceExcel.xlsx");
+		FileInputStream file= new FileInputStream("D:\\Eclipse\\MiniProject8\\miniProject\\resources\\ExternalDataSourceExcel.xlsx");
 
 		XSSFWorkbook workbook= new XSSFWorkbook(file);
 		XSSFSheet sheet= workbook.getSheet("Sheet2");
