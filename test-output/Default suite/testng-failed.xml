@@ -3,14 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.com.persistent.testcases.registerLogin.ValidateLoginRegister">
+      <class name="test.register.Test1Registration">
         <methods>
-          <include name="postCon"/>
-          <include name="adminLogin"/>
-          <include name="adminRegister"/>
-          <include name="preCond"/>
+          <include name="afterTest"/>
+          <include name="RegTest_03"/>
+          <include name="RegTest_02"/>
+          <include name="beforeTest"/>
+          <include name="RegTest_01"/>
+          <include name="RegTest_04"/>
         </methods>
-      </class> <!-- test.com.persistent.testcases.registerLogin.ValidateLoginRegister -->
+      </class> <!-- test.register.Test1Registration -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

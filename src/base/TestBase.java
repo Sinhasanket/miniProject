@@ -38,11 +38,11 @@ public class TestBase {
 		
 		if(browserName.equals("chrome")){
 			
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\sanket_sinha\\eclipse-workspace\\miniProject\\test\\com\\persistent\\resources\\chromedriver.exe");	
+			System.setProperty("webdriver.chrome.driver", "D:\\Projects\\Pissy Hurricans Mini Project\\miniProject\\src\\resources\\chromedriver.exe");	
 			driver = new ChromeDriver(); 
 		}
 		else if(browserName.equals("FF")){
-			System.setProperty("webdriver.gecko.driver", "C:\\Users\\sanket_sinha\\eclipse-workspace\\miniProject\\test\\com\\persistent\\resources\\geckodriver.exe");	
+			System.setProperty("webdriver.gecko.driver", "D:\\Projects\\Pissy Hurricans Mini Project\\miniProject\\src\\resources\\geckodriver.exe");	
 			driver = new FirefoxDriver(); 
 		}
 		
